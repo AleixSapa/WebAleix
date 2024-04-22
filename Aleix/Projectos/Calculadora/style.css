@@ -1,0 +1,59 @@
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.N {
+    margin-top: 20px;
+}
+
+.S {
+    margin: 20px;
+}
+
+.N0 {
+    width: 200px;
+}
+
+.NG {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#N0 {
+    width: 203px;
+    height: 100px;
+}
+
+.BotonGrande {
+    width: 440px;
+}
+
+.ColorN {
+    color: red;
+    background-color: purple;
+}
+
+.ColorS {
+    color: blue;
+    background-color: aqua;
+}
+
+#Coma {
+    color: cyan;
+    background-color: brown;
+}
+
+#Igual {
+    color: darkmagenta;
+    background-color: darkseagreen;
+}
+
+/*
+1. Tipus:Button
+2. Clases:.N
+3. Id: #Pepito
+*/

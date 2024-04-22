@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora Aleix</title>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <div id="Fila1">
+            <button class="N ColorN" onclick="onclickNumbers('7')">7</button>
+            <button class="N ColorN" onclick="onclickNumbers('8')">8</button>
+            <button class="N ColorN" onclick="onclickNumbers('9')">9</button>
+            <button class="S ColorS" onclick="onclickSimbol('+')">+</button>
+        </div>
+        <div id="Fila2">
+            <button class="N ColorN" onclick="onclickNumbers('4')">4</button>
+            <button class="N ColorN" onclick="onclickNumbers('5')">5</button>
+            <button class="N ColorN" onclick="onclickNumbers(6)">6</button>
+            <button class="S ColorS" onclick="onclickSimbol('-')">-</button>
+        </div>
+        <div id="Fila3">
+            <button class="N ColorN" onclick="onclickNumbers('1')">1</button>
+            <button class="N ColorN" onclick="onclickNumbers('2')">2</button>
+            <button class="N ColorN" onclick="onclickNumbers('3')">3</button>
+            <button class="S ColorS" onclick="onclickSimbol('*')">x</button>
+        </div>
+        <div id="Fila4">
+            <button class="NG  ColorN" id="N0" onclick="onclickNumbers('0')">0</button>
+            <button class="NG" id="Coma" onclick="onclickSimbolComa('.')">,</button>
+            <button class="S ColorS" onclick="onclickSimbol('/')">/</button>
+        </div>
+        <button class="BotonGrande" id="Igual" onclick="onclickPantalla()">=</button>
+        <br>
+        <button id="pantalla" class="BotonGrande"></button>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
